@@ -18,5 +18,5 @@ from django.contrib import admin
 from formulaire import views
 
 urlpatterns = [
-    url(r'^$', views.home),
+    url(r'^$', views.formulaire)
 ]
